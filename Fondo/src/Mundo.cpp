@@ -1,4 +1,6 @@
 #include "Mundo.h"
+#include "glut.h"
+
 
 Mundo::Mundo()
 {
@@ -15,6 +17,11 @@ void Mundo::inicializa()
 }
 
 void Mundo::tecla(unsigned char key)
+{
+	
+}
+
+void Mundo::dibuja()
 {
 
 }

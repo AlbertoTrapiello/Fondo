@@ -92,7 +92,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>lib;src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;lib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,11 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="lib\glut.h" />
     <ClInclude Include="Mundo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Fondo.cpp" />
-    <ClCompile Include="Mundo.cpp" />
+    <ClCompile Include="src\Mundo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
