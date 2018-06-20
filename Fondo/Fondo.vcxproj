@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="lib\ETSIDI.h" />
     <ClInclude Include="lib\glut.h" />
     <ClInclude Include="Mundo.h" />
   </ItemGroup>
